@@ -1,0 +1,1741 @@
+2026-01-28 13:59:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\testng.xml
+
+2026-01-28 13:59:34 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 13:59:34 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 13:59:35 INFO  ExtentReportUtility:50 - Extent Report initialized: Test-Report-2026.01.28.13.59.34.html
+2026-01-28 13:59:39 INFO  FormUIValidationTest:85 - edgebrowser launched
+2026-01-28 13:59:40 INFO  FormUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 13:59:41 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 13:59:41 INFO  ExtentReportUtility:73 - Test Passed: testHeadingAppearance
+2026-01-28 13:59:49 INFO  FormFieldValidationTest:85 - edgebrowser launched
+2026-01-28 13:59:49 INFO  FormFieldValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 13:59:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 13:59:55 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 13:59:56 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 13:59:56 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 13:59:56 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 13:59:59 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 13:59:59 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 13:59:59 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 13:59:59 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:02 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:02 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:02 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:05 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:06 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:08 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:09 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:09 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:09 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:11 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:12 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:12 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:15 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:16 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:16 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:19 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:20 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:20 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:25 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:26 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:30 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:30 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:30 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:33 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:34 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:34 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:36 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:37 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:37 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:39 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:40 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:40 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:42 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:43 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:43 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:43 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:47 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:47 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:47 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:47 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:52 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:53 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:00:57 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:00:58 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:00:58 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:00:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:01 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:02 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:02 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:04 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:05 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:05 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:05 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:09 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:09 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:09 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:09 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:12 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:13 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:13 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:15 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:16 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:16 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:18 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:01:18 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:18 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:01:23 INFO  ResultUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:01:25 INFO  ResultUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:01:25 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:28 INFO  ExtentReportUtility:73 - Test Passed: resultCardUiValidation
+2026-01-28 14:01:33 INFO  ScoreValidationTest:85 - edgebrowser launched
+2026-01-28 14:01:34 INFO  ScoreValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:01:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:36 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:37 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:37 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:39 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:40 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:40 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:42 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:43 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:43 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:43 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:45 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:46 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:46 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:46 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:49 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:49 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:50 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:50 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:53 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:53 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:54 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:01:56 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:01:57 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:01:57 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:01:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:00 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:00 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:00 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:00 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:04 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:05 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:05 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:05 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:11 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:11 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:11 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:11 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:14 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:14 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:14 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:14 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:17 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:18 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:18 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:18 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:22 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:22 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:23 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:26 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:26 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:28 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:29 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:29 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:29 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:32 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:32 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:32 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:35 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:36 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:36 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:36 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:38 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:39 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:39 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:39 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:42 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:42 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:42 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:45 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:45 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:45 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:45 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:49 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:02:50 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:02:50 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:02:50 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsPresence
+2026-01-28 14:02:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:02:58 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:02:59 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:02:59 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:02:59 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:02 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:03 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:03:03 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:06 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:07 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:03:07 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:07 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:08 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:08 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:03:09 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+2026-01-28 14:03:09 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:03:09 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140309.png
+2026-01-28 14:03:09 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:03:12 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:03:12 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:03:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:13 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:13 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:03:13 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:15 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:15 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:03:15 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:17 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:18 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:03:18 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:18 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:19 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:20 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:03:20 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:22 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:22 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:03:22 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:22 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:24 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:24 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:03:24 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:26 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:26 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:03:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:03:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:28 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:28 ERROR FormFieldValidationTest:26 - Test Failed: Age Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:03:28 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:03:29 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:03:29 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140329.png
+2026-01-28 14:03:29 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:03:30 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:03:30 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:03:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:03:32 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:03:32 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:03:32 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+2026-01-28 14:03:33 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [15abc67f377f562e97a7f701f2137b65, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 15936, ms:edgeOptions: {debuggerAddress: localhost:62031}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\2457812\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62031/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15abc67f377f562e97a7f701f2137b65
+2026-01-28 14:04:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\testng.xml
+
+2026-01-28 14:04:07 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 14:04:07 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 14:04:08 INFO  ExtentReportUtility:50 - Extent Report initialized: Test-Report-2026.01.28.14.04.08.html
+2026-01-28 14:04:14 INFO  FormUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:04:14 INFO  FormUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:04:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:04:15 INFO  ExtentReportUtility:73 - Test Passed: testHeadingAppearance
+2026-01-28 14:04:21 INFO  FormFieldValidationTest:85 - edgebrowser launched
+2026-01-28 14:04:22 INFO  FormFieldValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:04:25 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:04:27 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:04:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\testng.xml
+
+2026-01-28 14:04:46 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 14:04:46 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 14:04:47 INFO  ExtentReportUtility:50 - Extent Report initialized: Test-Report-2026.01.28.14.04.46.html
+2026-01-28 14:04:52 INFO  FormUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:04:53 INFO  FormUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:04:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:04:54 INFO  ExtentReportUtility:73 - Test Passed: testHeadingAppearance
+2026-01-28 14:04:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:04:57 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsPresence
+2026-01-28 14:04:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:04:59 INFO  ExtentReportUtility:73 - Test Passed: testFormSubmissionResult
+2026-01-28 14:05:06 INFO  FormUIValidationTest:16 - Browser closed
+2026-01-28 14:05:11 INFO  FormFieldValidationTest:85 - edgebrowser launched
+2026-01-28 14:05:11 INFO  FormFieldValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:05:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:17 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:19 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:19 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:21 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:22 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:22 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:22 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:25 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:26 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:29 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:30 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:30 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:32 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:33 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:33 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:36 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:37 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:37 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:40 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:41 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:41 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:41 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:44 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:45 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:45 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:45 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:49 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:50 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:50 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:50 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:54 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:55 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:55 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:05:58 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:05:59 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:05:59 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:05:59 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:02 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:03 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:03 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:05 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:06 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:07 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:08 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:08 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:08 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:09 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:10 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:10 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:12 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:12 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:12 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:14 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:15 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:15 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:17 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:17 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:17 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:17 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:20 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:21 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:21 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:21 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:23 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:24 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:24 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:26 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:27 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:27 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:27 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:29 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:30 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:30 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:33 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:06:33 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:33 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:06:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:37 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:06:38 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:06:38 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:06:38 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:43 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:06:44 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:06:44 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:06:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:48 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:06:48 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:06:48 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:06:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:06:53 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:06:53 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:06:53 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+2026-01-28 14:06:54 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:06:54 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140654.png
+2026-01-28 14:06:54 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:06:57 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:06:57 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:06:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:01 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:01 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:07:01 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:01 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:05 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:05 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:07:05 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:05 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:07 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:08 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:07:08 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:08 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:09 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:10 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:07:10 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:11 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:12 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:07:12 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:13 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:14 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:07:14 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:14 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:16 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:16 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:07:16 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:18 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:19 ERROR FormFieldValidationTest:26 - Test Failed: Age Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:07:19 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:07:19 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:07:19 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140719.png
+2026-01-28 14:07:19 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:07:20 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:07:20 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:07:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:23 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:23 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:07:23 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+2026-01-28 14:07:24 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:07:24 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140724.png
+2026-01-28 14:07:24 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:07:24 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:07:24 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:07:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:38 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:39 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:07:39 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:39 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:43 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:44 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:07:44 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:46 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:46 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:07:46 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:47 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:49 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:49 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:07:49 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:49 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:52 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:53 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:07:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:55 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:55 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:07:55 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:07:58 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:07:58 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:07:58 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:07:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:01 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:01 ERROR FormFieldValidationTest:26 - Test Failed: Systolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:08:01 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:08:01 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:08:01 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140801.png
+2026-01-28 14:08:01 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:08:02 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:08:02 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:08:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:05 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:06 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:08:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:08:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:10 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:11 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:08:11 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:08:11 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:15 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:16 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:08:16 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:08:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:20 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:20 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:08:20 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:08:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:22 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:23 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:08:23 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:08:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:25 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:08:26 ERROR FormFieldValidationTest:26 - Test Failed: Diastolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:08:26 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:08:26 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:08:26 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_140826.png
+2026-01-28 14:08:26 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:08:27 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:08:27 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: testInputFieldsWithInvalidData
+2026-01-28 14:08:32 INFO  FormFieldValidationTest:16 - Browser closed
+2026-01-28 14:08:36 INFO  ResultUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:08:37 INFO  ResultUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:08:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:40 INFO  ExtentReportUtility:73 - Test Passed: resultCardUiValidation
+2026-01-28 14:08:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:40 INFO  ExtentReportUtility:73 - Test Passed: summaryCardUIValidation
+2026-01-28 14:08:45 INFO  ResultUIValidationTest:16 - Browser closed
+2026-01-28 14:08:49 INFO  ScoreValidationTest:85 - edgebrowser launched
+2026-01-28 14:08:49 INFO  ScoreValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:08:49 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:52 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:08:52 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:08:52 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:08:52 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:54 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:08:55 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:08:55 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:08:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:08:57 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:08:57 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:08:58 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:08:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:00 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:00 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:00 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:00 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:03 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:03 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:03 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:06 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:07 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:07 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:07 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:11 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:12 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:12 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:15 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:16 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:16 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:18 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:19 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:19 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:22 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:23 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:23 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:26 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:26 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:27 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:27 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:30 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:30 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:31 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:31 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:33 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:34 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:34 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:37 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:37 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:39 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:40 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:40 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:44 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:44 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:44 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:48 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:48 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:48 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:51 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:51 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:51 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:52 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:54 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:54 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:54 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:09:58 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:09:59 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:09:59 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:09:59 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:02 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:03 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:10:03 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:10:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:06 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:09 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:10:09 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:10:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:14 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:14 INFO  ScoreValidationTest:16 - Unexpected Alert found: Values you provided are not ideal. Consult a doctor
+2026-01-28 14:10:14 ERROR ExtentReportUtility:80 - Test Failed: OverallHealthScoreValidation - java.lang.AssertionError: Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2
+2026-01-28 14:10:14 INFO  ExtentReportUtility:191 - Screenshot captured for test: OverallHealthScoreValidation
+2026-01-28 14:10:14 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/OverallHealthScoreValidation_20260128_141014.png
+2026-01-28 14:10:14 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: OverallHealthScoreValidation
+2026-01-28 14:10:16 ERROR AIFailureAnalyzer:144 - AI API returned error code 400: {"error":{"code":"unknown_model","message":"Unknown model: openai/gpt-4.1","details":"Unknown model: openai/gpt-4.1"}}
+2026-01-28 14:10:16 WARN  ExtentReportUtility:132 - AI analysis returned empty result for test: OverallHealthScoreValidation
+2026-01-28 14:10:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:19 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:22 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:10:22 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:10:22 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:24 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:27 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:10:27 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:10:27 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:10:29 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:10:32 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:10:32 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:10:37 INFO  ScoreValidationTest:16 - Browser closed
+2026-01-28 14:10:38 INFO  ExtentReportUtility:172 - Extent Report flushed.
+2026-01-28 14:14:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\testng.xml
+
+2026-01-28 14:14:10 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 14:14:10 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 14:14:10 INFO  ExtentReportUtility:50 - Extent Report initialized: Test-Report-2026.01.28.14.14.10.html
+2026-01-28 14:14:15 INFO  FormUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:14:16 INFO  FormUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:14:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:17 INFO  ExtentReportUtility:73 - Test Passed: testHeadingAppearance
+2026-01-28 14:14:17 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:19 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsPresence
+2026-01-28 14:14:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:22 INFO  ExtentReportUtility:73 - Test Passed: testFormSubmissionResult
+2026-01-28 14:14:26 INFO  FormUIValidationTest:16 - Browser closed
+2026-01-28 14:14:29 INFO  FormFieldValidationTest:85 - edgebrowser launched
+2026-01-28 14:14:30 INFO  FormFieldValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:14:33 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:36 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:37 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:37 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:40 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:40 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:40 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:43 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:44 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:44 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:47 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:48 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:48 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:50 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:52 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:52 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:52 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:54 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:55 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:55 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:14:58 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:14:58 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:14:58 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:14:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:01 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:02 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:02 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:05 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:06 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:09 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:10 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:10 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:13 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:13 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:13 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:16 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:17 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:17 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:17 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:20 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:21 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:21 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:21 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:25 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:26 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:28 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:29 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:29 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:29 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:32 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:32 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:32 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:35 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:36 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:36 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:36 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:39 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:40 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:40 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:42 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:43 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:43 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:43 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:45 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:46 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:46 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:46 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:48 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:49 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:49 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:49 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:52 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:53 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:15:56 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:15:57 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:15:57 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:15:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:00 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:00 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:00 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:00 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:03 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:03 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:03 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:07 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:07 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:07 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:07 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:10 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:10 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:16:11 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+2026-01-28 14:16:11 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:16:11 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_141611.png
+2026-01-28 14:16:11 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:16:19 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:16:19 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:16:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:22 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:23 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:23 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:26 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:26 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:28 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:29 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:16:29 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:29 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:31 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:32 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:16:32 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:34 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:35 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:16:35 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:35 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:38 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:39 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:16:39 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:39 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:42 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:42 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:16:42 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:16:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:45 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:45 ERROR FormFieldValidationTest:26 - Test Failed: Age Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:16:45 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:16:45 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:16:45 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_141645.png
+2026-01-28 14:16:45 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:16:54 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:16:54 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:16:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:16:57 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:16:57 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:16:57 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+2026-01-28 14:16:58 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:16:58 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_141658.png
+2026-01-28 14:16:58 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:17:08 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:17:08 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:17:09 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:21 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:21 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:17:21 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:21 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:23 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:24 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:17:24 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:26 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:26 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:17:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:28 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:28 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:17:28 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:28 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:30 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:31 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:17:31 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:31 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:33 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:33 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:17:33 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:33 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:35 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:35 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:17:35 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:36 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:37 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:37 ERROR FormFieldValidationTest:26 - Test Failed: Systolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:17:37 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:17:38 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:17:38 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_141738.png
+2026-01-28 14:17:38 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:17:46 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:17:46 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:17:46 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:47 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:48 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:17:48 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:49 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:49 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:17:49 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:49 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:51 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:51 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:17:51 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:51 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:53 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:53 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:17:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:55 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:55 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:17:55 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:17:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:17:56 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:17:57 ERROR FormFieldValidationTest:26 - Test Failed: Diastolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:17:57 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:17:57 INFO  ExtentReportUtility:191 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:17:57 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_141757.png
+2026-01-28 14:17:57 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:18:06 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:18:06 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:18:11 INFO  FormFieldValidationTest:16 - Browser closed
+2026-01-28 14:18:15 INFO  ResultUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:18:15 INFO  ResultUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:18:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:18 INFO  ExtentReportUtility:73 - Test Passed: resultCardUiValidation
+2026-01-28 14:18:18 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:19 INFO  ExtentReportUtility:73 - Test Passed: summaryCardUIValidation
+2026-01-28 14:18:24 INFO  ResultUIValidationTest:16 - Browser closed
+2026-01-28 14:18:28 INFO  ScoreValidationTest:85 - edgebrowser launched
+2026-01-28 14:18:28 INFO  ScoreValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:18:28 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:31 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:31 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:31 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:31 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:34 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:34 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:34 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:34 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:37 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:37 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:37 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:39 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:39 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:40 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:42 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:42 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:42 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:44 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:45 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:45 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:45 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:47 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:47 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:47 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:47 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:50 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:51 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:51 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:51 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:54 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:54 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:54 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:57 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:18:57 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:18:57 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:18:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:18:59 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:00 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:00 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:00 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:02 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:03 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:03 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:06 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:06 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:07 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:07 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:10 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:10 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:14 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:14 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:14 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:14 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:17 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:17 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:17 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:17 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:20 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:20 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:20 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:24 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:24 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:24 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:28 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:29 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:29 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:29 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:31 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:32 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:32 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:35 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:36 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:36 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:19:36 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:39 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:42 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:19:42 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:19:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:45 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:19:45 INFO  ScoreValidationTest:16 - Unexpected Alert found: Values you provided are not ideal. Consult a doctor
+2026-01-28 14:19:45 ERROR ExtentReportUtility:80 - Test Failed: OverallHealthScoreValidation - java.lang.AssertionError: Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2
+2026-01-28 14:19:45 INFO  ExtentReportUtility:191 - Screenshot captured for test: OverallHealthScoreValidation
+2026-01-28 14:19:45 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/OverallHealthScoreValidation_20260128_141945.png
+2026-01-28 14:19:45 INFO  ExtentReportUtility:112 - Performing AI analysis for failed test: OverallHealthScoreValidation
+2026-01-28 14:19:57 INFO  ExtentReportUtility:122 - AI analysis added to Extent Report
+2026-01-28 14:19:57 INFO  ExtentReportUtility:129 - AI analysis added to Allure Report
+2026-01-28 14:19:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:19:59 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:20:02 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:20:02 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:20:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:20:04 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:20:07 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:20:07 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:20:07 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:20:09 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:20:12 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:20:12 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:20:16 INFO  ScoreValidationTest:16 - Browser closed
+2026-01-28 14:20:17 INFO  ExtentReportUtility:172 - Extent Report flushed.
+2026-01-28 14:28:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\testng.xml
+
+2026-01-28 14:28:33 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 14:28:33 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 14:28:34 INFO  ExtentReportUtility:50 - Extent Report initialized: Test-Report-2026.01.28.14.28.33.html
+2026-01-28 14:28:38 INFO  FormUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:28:39 INFO  FormUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:28:39 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:28:40 INFO  ExtentReportUtility:73 - Test Passed: testHeadingAppearance
+2026-01-28 14:28:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:28:42 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsPresence
+2026-01-28 14:28:43 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:28:45 INFO  ExtentReportUtility:73 - Test Passed: testFormSubmissionResult
+2026-01-28 14:28:51 INFO  FormUIValidationTest:16 - Browser closed
+2026-01-28 14:28:55 INFO  FormFieldValidationTest:85 - edgebrowser launched
+2026-01-28 14:29:01 INFO  FormFieldValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:29:04 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:07 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:08 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:08 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:08 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:10 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:10 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:10 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:10 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:12 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:13 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:13 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:15 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:15 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:15 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:17 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:18 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:18 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:18 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:20 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:20 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:20 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:20 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:23 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:23 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:23 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:26 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:27 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:27 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:27 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:29 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:30 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:30 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:44 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:44 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:44 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:47 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:48 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:48 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:51 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:53 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:53 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:53 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:29:56 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:29:57 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:29:57 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:29:57 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:00 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:01 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:01 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:01 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:08 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:08 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:08 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:08 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:11 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:12 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:12 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:15 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:16 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:16 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:20 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:21 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:21 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:21 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:24 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:25 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:25 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:25 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:28 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:30 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:30 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:30 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:38 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:38 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:38 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:38 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:41 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:42 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:42 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:44 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-28 14:30:44 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:44 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithValidData
+2026-01-28 14:30:44 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:46 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:30:46 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:30:46 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:30:46 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:48 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:30:48 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:30:48 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:30:48 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:50 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:30:50 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:30:50 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:30:50 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:30:52 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:30:53 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:30:53 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+2026-01-28 14:30:53 INFO  ExtentReportUtility:194 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:30:53 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_143053.png
+2026-01-28 14:30:53 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:31:01 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:31:01 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:31:01 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:03 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:03 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:31:03 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:03 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:06 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:06 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:31:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:08 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:09 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-28 14:31:09 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:09 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:11 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:11 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:31:11 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:12 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:14 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:14 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:31:14 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:14 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:18 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:18 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:31:18 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:18 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:21 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:22 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-28 14:31:22 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:22 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:25 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:26 ERROR FormFieldValidationTest:26 - Test Failed: Age Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:31:26 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:31:26 INFO  ExtentReportUtility:194 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:31:26 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_143126.png
+2026-01-28 14:31:26 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:31:34 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:31:34 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:31:35 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:38 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:38 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-28 14:31:38 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+2026-01-28 14:31:39 INFO  ExtentReportUtility:194 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:31:39 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_143139.png
+2026-01-28 14:31:39 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:31:47 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:31:47 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:31:47 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:31:59 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:31:59 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:31:59 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:31:59 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:01 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:02 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-28 14:32:02 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:02 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:04 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:04 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:32:04 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:04 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:06 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:06 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:32:06 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:08 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:09 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:32:09 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:09 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:11 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:11 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:32:11 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:11 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:13 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:13 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-28 14:32:13 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:16 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:16 ERROR FormFieldValidationTest:26 - Test Failed: Systolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:32:16 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:32:16 INFO  ExtentReportUtility:194 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:32:16 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_143216.png
+2026-01-28 14:32:16 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:32:22 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:32:22 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:32:22 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:24 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:24 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:32:24 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:26 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:26 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:32:26 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:27 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:29 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:29 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:32:29 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:29 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:32 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:32 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:32:32 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:35 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:35 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-28 14:32:35 INFO  ExtentReportUtility:73 - Test Passed: testInputFieldsWithInvalidData
+2026-01-28 14:32:35 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:37 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-28 14:32:38 ERROR FormFieldValidationTest:26 - Test Failed: Diastolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-28 14:32:38 ERROR ExtentReportUtility:80 - Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-28 14:32:38 INFO  ExtentReportUtility:194 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-28 14:32:38 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260128_143238.png
+2026-01-28 14:32:38 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-28 14:32:43 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:32:43 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:32:49 INFO  FormFieldValidationTest:16 - Browser closed
+2026-01-28 14:32:54 INFO  ResultUIValidationTest:85 - edgebrowser launched
+2026-01-28 14:32:55 INFO  ResultUIValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:32:55 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:58 INFO  ExtentReportUtility:73 - Test Passed: resultCardUiValidation
+2026-01-28 14:32:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:32:58 INFO  ExtentReportUtility:73 - Test Passed: summaryCardUIValidation
+2026-01-28 14:33:03 INFO  ResultUIValidationTest:16 - Browser closed
+2026-01-28 14:33:07 INFO  ScoreValidationTest:85 - edgebrowser launched
+2026-01-28 14:33:07 INFO  ScoreValidationTest:91 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-28 14:33:08 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:10 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:11 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:11 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:11 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:13 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:13 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:13 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:13 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:16 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:16 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:16 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:16 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:18 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:19 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:19 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:21 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:21 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:21 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:21 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:23 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:23 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:23 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:23 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:25 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:26 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:26 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:26 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:28 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:28 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:28 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:28 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:31 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:32 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:32 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:32 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:35 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:35 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:35 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:35 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:37 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:37 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:37 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:37 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:40 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:40 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:40 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:40 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:42 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:42 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:42 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:42 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:44 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:45 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:45 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:46 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:47 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:47 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:47 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:49 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:49 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:49 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:49 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:51 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:51 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:51 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:51 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:53 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:54 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:54 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:54 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:56 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:56 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:56 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:56 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:33:58 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:33:58 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:33:58 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:33:58 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:00 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:01 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:34:01 INFO  ExtentReportUtility:73 - Test Passed: ScoreValidation
+2026-01-28 14:34:01 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:03 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:06 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:34:06 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:34:06 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:08 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:08 INFO  ScoreValidationTest:16 - Unexpected Alert found: Values you provided are not ideal. Consult a doctor
+2026-01-28 14:34:08 ERROR ExtentReportUtility:80 - Test Failed: OverallHealthScoreValidation - java.lang.AssertionError: Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2
+2026-01-28 14:34:08 INFO  ExtentReportUtility:194 - Screenshot captured for test: OverallHealthScoreValidation
+2026-01-28 14:34:08 INFO  ExtentReportUtility:86 - Screenshot attached for failed test: screenshots/OverallHealthScoreValidation_20260128_143408.png
+2026-01-28 14:34:08 INFO  ExtentReportUtility:115 - Performing AI analysis for failed test: OverallHealthScoreValidation
+2026-01-28 14:34:15 INFO  ExtentReportUtility:125 - AI analysis added to Extent Report
+2026-01-28 14:34:15 INFO  ExtentReportUtility:132 - AI analysis added to Allure Report
+2026-01-28 14:34:15 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:17 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:19 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:34:19 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:34:19 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:21 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:24 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:34:24 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:34:24 INFO  ExtentReportUtility:66 - Test Started
+2026-01-28 14:34:26 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-28 14:34:29 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-28 14:34:29 INFO  ExtentReportUtility:73 - Test Passed: OverallHealthScoreValidation
+2026-01-28 14:34:33 INFO  ScoreValidationTest:16 - Browser closed
+2026-01-28 14:34:34 INFO  ExtentReportUtility:175 - Extent Report flushed.
+2026-01-28 15:15:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 15:15:22 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 15:15:22 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-28 16:03:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\groups.xml
+
+2026-01-28 16:03:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\HIC_AutomationFramework_QG-main_Updated_New\HIC_AutomationFramework_QG-main\groups.xml
+
+2026-01-28 16:03:25 INFO  FormUIValidationTest:39 - Config file loaded successfully
+2026-01-28 16:03:25 INFO  FormUIValidationTest:52 - Test Suite Started
+2026-01-29 17:33:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457812\Downloads\Health_Index_Calculator_Automation_Framework-main\Health_Index_Calculator_Automation_Framework-main\testng.xml
+
+2026-01-29 17:33:40 INFO  FormUIValidationTest:40 - Config file loaded successfully
+2026-01-29 17:33:40 INFO  FormUIValidationTest:53 - Test Suite Started
+2026-01-29 17:33:40 INFO  ExtentReportUtility:54 - Extent Report initialized: Test-Report-2026.01.29.17.33.40.html
+2026-01-29 17:33:46 INFO  FormUIValidationTest:86 - edgebrowser launched
+2026-01-29 17:33:46 INFO  FormUIValidationTest:92 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-29 17:33:47 INFO  ExtentReportUtility:16 - testHeadingAppearanceTest Started
+2026-01-29 17:33:47 INFO  ExtentReportUtility:21 - Test Passed: testHeadingAppearance passed
+2026-01-29 17:33:48 INFO  ExtentReportUtility:16 - testInputFieldsPresenceTest Started
+2026-01-29 17:33:50 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsPresence passed
+2026-01-29 17:33:50 INFO  ExtentReportUtility:16 - testFormSubmissionResultTest Started
+2026-01-29 17:33:53 INFO  ExtentReportUtility:21 - Test Passed: testFormSubmissionResult passed
+2026-01-29 17:33:58 INFO  FormUIValidationTest:16 - Browser closed
+2026-01-29 17:34:01 INFO  FormFieldValidationTest:86 - edgebrowser launched
+2026-01-29 17:34:02 INFO  FormFieldValidationTest:92 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-29 17:34:06 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:08 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:10 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:10 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:10 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:12 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:12 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:12 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:13 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:15 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:16 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:16 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:16 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:18 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:19 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:19 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:19 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:21 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:22 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:22 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:22 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:24 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:25 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:25 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:25 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:28 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:28 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:28 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:28 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:30 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:31 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:31 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:31 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:34 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:34 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:34 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:34 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:36 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:37 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:37 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:37 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:39 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:40 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:40 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:40 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:42 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:42 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:42 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:42 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:44 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:45 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:45 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:45 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:48 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:48 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:48 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:48 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:51 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:51 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:51 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:51 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:54 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:54 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:54 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:54 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:56 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:34:57 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:34:57 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:34:57 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:34:59 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:00 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:00 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:00 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:35:03 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:03 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:03 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:03 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:35:05 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:06 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:06 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:06 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:35:09 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:09 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:09 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:09 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:35:11 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:12 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:12 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:12 INFO  ExtentReportUtility:16 - testInputFieldsWithValidDataTest Started
+2026-01-29 17:35:14 INFO  FormFieldValidationTest:16 - Input Form Submitted with valid data
+2026-01-29 17:35:14 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:14 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithValidData passed
+2026-01-29 17:35:14 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:17 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:17 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:17 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:17 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:20 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:20 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:20 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:20 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:22 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:23 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:23 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:23 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:25 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:25 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:35:25 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+2026-01-29 17:35:26 INFO  ExtentReportUtility:192 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-29 17:35:26 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260129_173526.png
+2026-01-29 17:35:26 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-29 17:35:32 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:35:32 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:35:32 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:34 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:34 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:34 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:34 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:37 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:37 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:37 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:37 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:39 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:40 INFO  FormFieldValidationTest:16 - Name Field validation passed.
+2026-01-29 17:35:40 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:40 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:42 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:42 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-29 17:35:42 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:42 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:45 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:45 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-29 17:35:45 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:45 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:48 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:48 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-29 17:35:48 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:48 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:50 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:51 INFO  FormFieldValidationTest:16 - Age Field validation passed.
+2026-01-29 17:35:51 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:35:51 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:35:53 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:35:53 ERROR FormFieldValidationTest:26 - Test Failed: Age Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-29 17:35:53 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-29 17:35:54 INFO  ExtentReportUtility:192 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-29 17:35:54 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260129_173554.png
+2026-01-29 17:35:54 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-29 17:35:59 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:35:59 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:35:59 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:02 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:02 INFO  FormFieldValidationTest:16 - Reset Button Clicked
+2026-01-29 17:36:02 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+2026-01-29 17:36:03 INFO  ExtentReportUtility:192 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-29 17:36:03 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260129_173603.png
+2026-01-29 17:36:03 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-29 17:36:06 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:36:06 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:36:06 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:20 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:20 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-29 17:36:20 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:20 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:22 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:23 INFO  FormFieldValidationTest:16 - Pulse Field validation passed.
+2026-01-29 17:36:23 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:23 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:25 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:25 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-29 17:36:25 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:25 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:28 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:28 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-29 17:36:28 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:28 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:31 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:31 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-29 17:36:31 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:31 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:33 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:33 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-29 17:36:33 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:33 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:36 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:36 INFO  FormFieldValidationTest:16 - Systolic BP Field validation passed.
+2026-01-29 17:36:36 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:36 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:38 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:38 ERROR FormFieldValidationTest:26 - Test Failed: Systolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-29 17:36:38 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-29 17:36:38 INFO  ExtentReportUtility:192 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-29 17:36:38 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260129_173638.png
+2026-01-29 17:36:38 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-29 17:36:44 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:36:44 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:36:44 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:46 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:46 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-29 17:36:46 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:46 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:48 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:49 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-29 17:36:49 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:49 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:51 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:51 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-29 17:36:51 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:51 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:53 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:53 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-29 17:36:53 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:53 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:56 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:56 INFO  FormFieldValidationTest:16 - Diastolic BP Field validation passed.
+2026-01-29 17:36:56 INFO  ExtentReportUtility:21 - Test Passed: testInputFieldsWithInvalidData passed
+2026-01-29 17:36:56 INFO  ExtentReportUtility:16 - testInputFieldsWithInvalidDataTest Started
+2026-01-29 17:36:58 INFO  FormFieldValidationTest:16 - Input Form submitted with invalid data
+2026-01-29 17:36:58 ERROR FormFieldValidationTest:26 - Test Failed: Diastolic BP Field validation failed. Expected: [Please fill out this field.] | Actual: [Please fill in this field.]
+2026-01-29 17:36:58 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: testInputFieldsWithInvalidData - java.lang.AssertionError: Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+2026-01-29 17:36:59 INFO  ExtentReportUtility:192 - Screenshot captured for test: testInputFieldsWithInvalidData
+2026-01-29 17:36:59 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/testInputFieldsWithInvalidData_20260129_173659.png
+2026-01-29 17:36:59 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: testInputFieldsWithInvalidData
+2026-01-29 17:37:03 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:37:03 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:37:08 INFO  FormFieldValidationTest:16 - Browser closed
+2026-01-29 17:37:12 INFO  ResultUIValidationTest:86 - edgebrowser launched
+2026-01-29 17:37:12 INFO  ResultUIValidationTest:92 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-29 17:37:12 INFO  ExtentReportUtility:16 - resultCardUiValidationTest Started
+2026-01-29 17:37:14 INFO  ExtentReportUtility:21 - Test Passed: resultCardUiValidation passed
+2026-01-29 17:37:14 INFO  ExtentReportUtility:16 - summaryCardUIValidationTest Started
+2026-01-29 17:37:15 INFO  ExtentReportUtility:21 - Test Passed: summaryCardUIValidation passed
+2026-01-29 17:37:18 INFO  ResultUIValidationTest:16 - Browser closed
+2026-01-29 17:37:21 INFO  ScoreValidationTest:86 - edgebrowser launched
+2026-01-29 17:37:22 INFO  ScoreValidationTest:92 - Navigated to: https://yalanuwu.github.io/Health-Index-Calculator
+2026-01-29 17:37:22 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:24 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:24 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:24 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:24 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:27 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:28 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:28 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:28 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:30 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:30 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:30 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:30 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:33 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:33 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:33 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:33 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:35 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:36 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:36 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:36 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:39 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:39 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:39 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:39 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:41 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:41 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:41 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:41 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:44 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:44 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:44 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:44 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:46 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:46 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:46 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:46 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:49 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:49 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:49 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:49 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:52 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:52 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:52 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:52 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:54 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:54 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:55 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:55 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:57 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:57 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:37:57 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:57 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:37:59 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:37:59 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:37:59 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:01 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:02 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:02 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:02 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:04 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:04 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:04 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:04 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:06 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:07 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:07 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:07 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:09 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:09 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:09 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:09 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:12 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:12 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:12 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:12 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:14 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:14 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:14 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:14 INFO  ExtentReportUtility:16 - ScoreValidationTest Started
+2026-01-29 17:38:16 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:17 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:17 INFO  ExtentReportUtility:21 - Test Passed: ScoreValidation passed
+2026-01-29 17:38:17 INFO  ExtentReportUtility:16 - OverallHealthScoreValidationTest Started
+2026-01-29 17:38:19 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:22 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:22 INFO  ExtentReportUtility:21 - Test Passed: OverallHealthScoreValidation passed
+2026-01-29 17:38:22 INFO  ExtentReportUtility:16 - OverallHealthScoreValidationTest Started
+2026-01-29 17:38:24 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:24 INFO  ScoreValidationTest:16 - Unexpected Alert found: Values you provided are not ideal. Consult a doctor
+2026-01-29 17:38:24 ERROR ExtentReportUtility:26 - Test Failed: Test Failed: OverallHealthScoreValidation - java.lang.AssertionError: Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2
+2026-01-29 17:38:24 INFO  ExtentReportUtility:192 - Screenshot captured for test: OverallHealthScoreValidation
+2026-01-29 17:38:24 INFO  ExtentReportUtility:85 - Screenshot attached for failed test: screenshots/OverallHealthScoreValidation_20260129_173824.png
+2026-01-29 17:38:24 INFO  ExtentReportUtility:114 - Performing AI analysis for failed test: OverallHealthScoreValidation
+2026-01-29 17:38:28 INFO  ExtentReportUtility:124 - AI analysis added to Extent Report
+2026-01-29 17:38:28 INFO  ExtentReportUtility:131 - AI analysis added to Allure Report
+2026-01-29 17:38:28 INFO  ExtentReportUtility:16 - OverallHealthScoreValidationTest Started
+2026-01-29 17:38:31 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:33 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:33 INFO  ExtentReportUtility:21 - Test Passed: OverallHealthScoreValidation passed
+2026-01-29 17:38:33 INFO  ExtentReportUtility:16 - OverallHealthScoreValidationTest Started
+2026-01-29 17:38:35 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:38 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:38 INFO  ExtentReportUtility:21 - Test Passed: OverallHealthScoreValidation passed
+2026-01-29 17:38:38 INFO  ExtentReportUtility:16 - OverallHealthScoreValidationTest Started
+2026-01-29 17:38:40 INFO  ScoreValidationTest:16 - Input form submitted
+2026-01-29 17:38:43 INFO  ScoreValidationTest:16 - Reset Button Clicked
+2026-01-29 17:38:43 INFO  ExtentReportUtility:21 - Test Passed: OverallHealthScoreValidation passed
+2026-01-29 17:38:47 INFO  ScoreValidationTest:16 - Browser closed
+2026-01-29 17:38:48 INFO  ExtentReportUtility:173 - Extent Report flushed.

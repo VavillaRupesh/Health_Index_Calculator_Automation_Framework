@@ -1,0 +1,3425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="81" passed="75" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-29T17:33:40 IST" name="Health Index Calculator Suite" finished-at="2026-01-29T17:38:47 IST" duration-ms="307588">
+    <groups>
+      <group name="functional">
+        <method signature="FormFieldValidationTest.testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithValidData" class="tests.FormFieldValidationTest"/>
+        <method signature="ScoreValidationTest.ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" name="ScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormFieldValidationTest.testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithInvalidData" class="tests.FormFieldValidationTest"/>
+        <method signature="ScoreValidationTest.OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" name="OverallHealthScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormUIValidationTest.testFormSubmissionResult()[pri:3, instance:tests.FormUIValidationTest@34625ccd]" name="testFormSubmissionResult" class="tests.FormUIValidationTest"/>
+      </group> <!-- functional -->
+      <group name="ui">
+        <method signature="FormUIValidationTest.testHeadingAppearance()[pri:1, instance:tests.FormUIValidationTest@34625ccd]" name="testHeadingAppearance" class="tests.FormUIValidationTest"/>
+        <method signature="ResultUIValidationTest.resultCardUiValidation()[pri:1, instance:tests.ResultUIValidationTest@18f20260]" name="resultCardUiValidation" class="tests.ResultUIValidationTest"/>
+        <method signature="FormUIValidationTest.testInputFieldsPresence()[pri:2, instance:tests.FormUIValidationTest@34625ccd]" name="testInputFieldsPresence" class="tests.FormUIValidationTest"/>
+        <method signature="ResultUIValidationTest.summaryCardUIValidation()[pri:2, instance:tests.ResultUIValidationTest@18f20260]" name="summaryCardUIValidation" class="tests.ResultUIValidationTest"/>
+      </group> <!-- ui -->
+      <group name="regression">
+        <method signature="FormFieldValidationTest.testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithValidData" class="tests.FormFieldValidationTest"/>
+        <method signature="FormUIValidationTest.testHeadingAppearance()[pri:1, instance:tests.FormUIValidationTest@34625ccd]" name="testHeadingAppearance" class="tests.FormUIValidationTest"/>
+        <method signature="ResultUIValidationTest.resultCardUiValidation()[pri:1, instance:tests.ResultUIValidationTest@18f20260]" name="resultCardUiValidation" class="tests.ResultUIValidationTest"/>
+        <method signature="ScoreValidationTest.ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" name="ScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormFieldValidationTest.testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithInvalidData" class="tests.FormFieldValidationTest"/>
+        <method signature="FormUIValidationTest.testInputFieldsPresence()[pri:2, instance:tests.FormUIValidationTest@34625ccd]" name="testInputFieldsPresence" class="tests.FormUIValidationTest"/>
+        <method signature="ResultUIValidationTest.summaryCardUIValidation()[pri:2, instance:tests.ResultUIValidationTest@18f20260]" name="summaryCardUIValidation" class="tests.ResultUIValidationTest"/>
+        <method signature="ScoreValidationTest.OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" name="OverallHealthScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormUIValidationTest.testFormSubmissionResult()[pri:3, instance:tests.FormUIValidationTest@34625ccd]" name="testFormSubmissionResult" class="tests.FormUIValidationTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FormFieldValidationTest.testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithValidData" class="tests.FormFieldValidationTest"/>
+        <method signature="FormUIValidationTest.testHeadingAppearance()[pri:1, instance:tests.FormUIValidationTest@34625ccd]" name="testHeadingAppearance" class="tests.FormUIValidationTest"/>
+        <method signature="ResultUIValidationTest.resultCardUiValidation()[pri:1, instance:tests.ResultUIValidationTest@18f20260]" name="resultCardUiValidation" class="tests.ResultUIValidationTest"/>
+        <method signature="ScoreValidationTest.ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" name="ScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormUIValidationTest.testInputFieldsPresence()[pri:2, instance:tests.FormUIValidationTest@34625ccd]" name="testInputFieldsPresence" class="tests.FormUIValidationTest"/>
+        <method signature="ScoreValidationTest.OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" name="OverallHealthScoreValidation" class="tests.ScoreValidationTest"/>
+        <method signature="FormUIValidationTest.testFormSubmissionResult()[pri:3, instance:tests.FormUIValidationTest@34625ccd]" name="testFormSubmissionResult" class="tests.FormUIValidationTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="FormFieldValidationTest.testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" name="testInputFieldsWithValidData" class="tests.FormFieldValidationTest"/>
+        <method signature="FormUIValidationTest.testHeadingAppearance()[pri:1, instance:tests.FormUIValidationTest@34625ccd]" name="testHeadingAppearance" class="tests.FormUIValidationTest"/>
+        <method signature="FormUIValidationTest.testFormSubmissionResult()[pri:3, instance:tests.FormUIValidationTest@34625ccd]" name="testFormSubmissionResult" class="tests.FormUIValidationTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-01-29T17:33:40 IST" name="Execution in Chrome" finished-at="2026-01-29T17:38:47 IST" duration-ms="307588">
+      <class name="tests.FormFieldValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:33:58 IST" name="setUp" finished-at="2026-01-29T17:34:02 IST" duration-ms="3798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:05 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:10 IST" duration-ms="4077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:10 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:12 IST" duration-ms="2902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:12 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:16 IST" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi     Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:16 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:19 IST" duration-ms="3457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balasubramanian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:19 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:22 IST" duration-ms="3034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:22 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:25 IST" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JOHN DOE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40-49 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:25 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:28 IST" duration-ms="3136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MEENA     LAKSHMI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:28 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:31 IST" duration-ms="2957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandrasekharan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:31 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:34 IST" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[116]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:34 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:37 IST" duration-ms="2792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divya Shankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:37 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:40 IST" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhavani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[72]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:40 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:42 IST" duration-ms="2758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sita]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40-49 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[87]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:42 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:45 IST" duration-ms="2732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:45 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:48 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:48 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:51 IST" duration-ms="2994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arjun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:51 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:54 IST" duration-ms="2796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kavya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:54 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:34:57 IST" duration-ms="2868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:34:57 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:00 IST" duration-ms="3050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:00 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:03 IST" duration-ms="3135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:03 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:06 IST" duration-ms="2796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:06 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:09 IST" duration-ms="3097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:09 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:12 IST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[73]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:12 IST" name="testInputFieldsWithValidData" data-provider="validTestData" finished-at="2026-01-29T17:35:14 IST" duration-ms="2452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[117]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithValidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:14 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:17 IST" duration-ms="2901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:17 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:20 IST" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi_ Kumar ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:20 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:23 IST" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mary-Jane ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:23 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:25 IST" duration-ms="2640" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unexpected result card displayed for InvalidName Field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unexpected result card displayed for InvalidName Field
+at org.testng.Assert.fail(Assert.java:111)
+at tests.FormFieldValidationTest.failAndReset(FormFieldValidationTest.java:77)
+at tests.FormFieldValidationTest.testInputFieldsWithInvalidData(FormFieldValidationTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:32 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:34 IST" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suresh.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:34 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:37 IST" duration-ms="2686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Rahul#1 ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40-49 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:37 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:40 IST" duration-ms="2770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name Field-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya! Devi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please match the requested format.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:40 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:42 IST" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JOHN DOE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 18.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:42 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:45 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MEENA     LAKSHMI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[116]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 18.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:45 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:48 IST" duration-ms="2734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandrasekharan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 18.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:48 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:51 IST" duration-ms="2561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17.5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 18.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:51 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:35:53 IST" duration-ms="2671" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divya Shankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation failed for Age Field expected [Please fill out this field.] but found [Please fill in this field.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.FormFieldValidationTest.validateError(FormFieldValidationTest.java:82)
+at tests.FormFieldValidationTest.testInputFieldsWithInvalidData(FormFieldValidationTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:35:59 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:02 IST" duration-ms="2915" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Field-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhavani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be less than or equal to 100.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unexpected result card displayed for InvalidAge Field]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unexpected result card displayed for InvalidAge Field
+at org.testng.Assert.fail(Assert.java:111)
+at tests.FormFieldValidationTest.failAndReset(FormFieldValidationTest.java:77)
+at tests.FormFieldValidationTest.testInputFieldsWithInvalidData(FormFieldValidationTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:06 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:20 IST" duration-ms="13837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sita]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Select Pulse Range]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:20 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:23 IST" duration-ms="2590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[82]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Select Pulse Range]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Select Pulse Range]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:23 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:25 IST" duration-ms="2624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[79]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 80.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:25 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:28 IST" duration-ms="2819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arjun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[82]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 80.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:28 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:31 IST" duration-ms="2533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kavya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be less than or equal to 120.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:31 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:33 IST" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be less than or equal to 120.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:33 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:36 IST" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[84.5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[72]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please enter a valid value. The two nearest valid values are 84 and 85.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:36 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:38 IST" duration-ms="2374" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Systolic BP Field-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[77]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation failed for Systolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.FormFieldValidationTest.validateError(FormFieldValidationTest.java:82)
+at tests.FormFieldValidationTest.testInputFieldsWithInvalidData(FormFieldValidationTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:44 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:46 IST" duration-ms="2316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 50.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:46 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:49 IST" duration-ms="2788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Riya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[108]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be greater than or equal to 50.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:49 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:51 IST" duration-ms="2465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[151]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be less than or equal to 150.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:51 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:53 IST" duration-ms="2234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Value must be less than or equal to 150.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:53 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:56 IST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balasubramanian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[120.7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please enter a valid value. The two nearest valid values are 120 and 121.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method signature="testInputFieldsWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:36:56 IST" name="testInputFieldsWithInvalidData" data-provider="invalidTestData" finished-at="2026-01-29T17:36:58 IST" duration-ms="2528" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diastolic BP Field-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ravi Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40-49 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation failed for Diastolic BP Field expected [Please fill out this field.] but found [Please fill in this field.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.FormFieldValidationTest.validateError(FormFieldValidationTest.java:82)
+at tests.FormFieldValidationTest.testInputFieldsWithInvalidData(FormFieldValidationTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FormFieldValidationTest@162be91c]" started-at="2026-01-29T17:37:03 IST" name="closeBrowser" finished-at="2026-01-29T17:37:08 IST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FormFieldValidationTest -->
+      <class name="tests.FormUIValidationTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:40 IST" name="beforeSuite" finished-at="2026-01-29T17:33:40 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:40 IST" name="setUp" finished-at="2026-01-29T17:33:47 IST" duration-ms="6271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHeadingAppearance()[pri:1, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:47 IST" name="testHeadingAppearance" finished-at="2026-01-29T17:33:47 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeadingAppearance -->
+        <test-method signature="testInputFieldsPresence()[pri:2, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:48 IST" name="testInputFieldsPresence" finished-at="2026-01-29T17:33:50 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldsPresence -->
+        <test-method signature="testFormSubmissionResult()[pri:3, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:50 IST" name="testFormSubmissionResult" finished-at="2026-01-29T17:33:53 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionResult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FormUIValidationTest@34625ccd]" started-at="2026-01-29T17:33:53 IST" name="closeBrowser" finished-at="2026-01-29T17:33:58 IST" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FormUIValidationTest -->
+      <class name="tests.ScoreValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:18 IST" name="setUp" finished-at="2026-01-29T17:37:22 IST" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:22 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:24 IST" duration-ms="2739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:24 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:28 IST" duration-ms="3228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:28 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:30 IST" duration-ms="2566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:30 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:33 IST" duration-ms="2656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhaskar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:33 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:36 IST" duration-ms="2866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chaitanya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:36 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:39 IST" duration-ms="3086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:39 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:41 IST" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age Score-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:41 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:44 IST" duration-ms="2688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:44 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:46 IST" duration-ms="2408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:46 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:49 IST" duration-ms="2828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:49 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:52 IST" duration-ms="2859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saibabu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[109]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:52 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:55 IST" duration-ms="2346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:55 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:57 IST" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BP Score-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:57 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:37:59 IST" duration-ms="2234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai Babu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Provided BP values are not valid. Please Check Once Again]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:37:59 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:02 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhaskar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:02 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:04 IST" duration-ms="2359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40-49 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:04 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:07 IST" duration-ms="2567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:07 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:09 IST" duration-ms="2708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:09 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:12 IST" duration-ms="2412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:12 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:14 IST" duration-ms="2445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[91-100 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="ScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:14 IST" name="ScoreValidation" data-provider="ScoreData" finished-at="2026-01-29T17:38:17 IST" duration-ms="2300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pulse Score-07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreValidation -->
+        <test-method signature="OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:17 IST" name="OverallHealthScoreValidation" data-provider="OverallScoreData" finished-at="2026-01-29T17:38:22 IST" duration-ms="5005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sairam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[81-90 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[EXCELLENT]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rgba(138, 201, 38, 1)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallHealthScoreValidation -->
+        <test-method signature="OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:22 IST" name="OverallHealthScoreValidation" data-provider="OverallScoreData" finished-at="2026-01-29T17:38:24 IST" duration-ms="2285" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Above 100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[109]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[CRITICAL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rgba(197, 202, 48, 1)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: Unexpected Alert [Values you provided are not ideal. Consult a doctor] appeared for 2
+at org.testng.Assert.fail(Assert.java:111)
+at tests.ScoreValidationTest.OverallHealthScoreValidation(ScoreValidationTest.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallHealthScoreValidation -->
+        <test-method signature="OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:28 IST" name="OverallHealthScoreValidation" data-provider="OverallScoreData" finished-at="2026-01-29T17:38:33 IST" duration-ms="4782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saibabu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[60-80 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[109]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOOD]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rgba(197, 202, 48, 1)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallHealthScoreValidation -->
+        <test-method signature="OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:33 IST" name="OverallHealthScoreValidation" data-provider="OverallScoreData" finished-at="2026-01-29T17:38:38 IST" duration-ms="4650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50-59 BPM]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[AVERAGE]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rgba(255, 202, 58, 1)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallHealthScoreValidation -->
+        <test-method signature="OverallHealthScoreValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:38 IST" name="OverallHealthScoreValidation" data-provider="OverallScoreData" finished-at="2026-01-29T17:38:43 IST" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhaskar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Below 40]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[POOR]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rgba(255, 146, 76, 1)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverallHealthScoreValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ScoreValidationTest@267f474e]" started-at="2026-01-29T17:38:43 IST" name="closeBrowser" finished-at="2026-01-29T17:38:47 IST" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ScoreValidationTest -->
+      <class name="tests.ResultUIValidationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ResultUIValidationTest@18f20260]" started-at="2026-01-29T17:37:08 IST" name="setUp" finished-at="2026-01-29T17:37:12 IST" duration-ms="3676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resultCardUiValidation()[pri:1, instance:tests.ResultUIValidationTest@18f20260]" started-at="2026-01-29T17:37:12 IST" name="resultCardUiValidation" finished-at="2026-01-29T17:37:14 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultCardUiValidation -->
+        <test-method signature="summaryCardUIValidation()[pri:2, instance:tests.ResultUIValidationTest@18f20260]" started-at="2026-01-29T17:37:14 IST" name="summaryCardUIValidation" finished-at="2026-01-29T17:37:15 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summaryCardUIValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ResultUIValidationTest@18f20260]" started-at="2026-01-29T17:37:15 IST" name="closeBrowser" finished-at="2026-01-29T17:37:18 IST" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ResultUIValidationTest -->
+    </test> <!-- Execution in Chrome -->
+  </suite> <!-- Health Index Calculator Suite -->
+</testng-results>
