@@ -7,30 +7,31 @@
         <groups>
             <run>
                 <include name="regression"/>
+                <include name="smoke"/>
             </run>
         </groups>
         <classes>
             <class name="tests.FormUIValidationTest"/>
-            <class name="tests.FormFieldValidationTest"/>
+            <class name="tests.FormFieldValidationTest_2"/>
             <class name="tests.ResultUIValidationTest"/>
-            <class name="tests.ScoreValidationTest"/>
+            <class name="tests.ScoreValidationTest_2"/>
         </classes>
     </test>
 
-<!--    <test name="Edge Browser Testing">-->
-<!--        <parameter name="browser" value="edge"/>-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="regression"/>-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="tests.FormUIValidationTest"/>-->
-<!--            <class name="tests.FormFieldValidationTest"/>-->
-<!--            <class name="tests.ResultUIValidationTest"/>-->
-<!--            <class name="tests.ScoreValidationTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Edge Browser Testing">
+        <parameter name="browser" value="edge"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.FormUIValidationTest"/>
+            <class name="tests.FormFieldValidationTest_2"/>
+            <class name="tests.ResultUIValidationTest"/>
+            <class name="tests.ScoreValidationTest_2"/>
+        </classes>
+    </test>
 
 
 </suite>

@@ -308,28 +308,11 @@ import java.util.Properties;
 /**
  * AI-powered test failure analyzer that uses GitHub Models API (OpenAI)
  * to analyze test failures and provide actionable suggestions.
- *
- * Config resolution order:
- * 1) Java System properties (-Dgithub.token=...)
- * 2) Environment variables (GITHUB_TOKEN, AI_FAILURE_ANALYSIS, etc.)
- * 3) config.properties (if present on classpath)
  */
 public class AIFailureAnalyzer {
 
     private static final Logger log = LogManager.getLogger(AIFailureAnalyzer.class);
     private static final String GITHUB_MODELS_API_URL = "https://models.inference.ai.azure.com/chat/completions";
-
-    // Property keys (config.properties / -D)
-    private static final String KEY_ENABLED = "ai.failure.analysis";
-    private static final String KEY_TOKEN = "github.token";
-    private static final String KEY_MODEL = "ai.model";
-    private static final String KEY_TEMP = "ai.temperature";
-
-    // Env var names (Jenkins injects secrets here)
-    private static final String ENV_ENABLED = "AI_FAILURE_ANALYSIS";
-    private static final String ENV_TOKEN = "GITHUB_TOKEN";
-    private static final String ENV_MODEL = "AI_MODEL";
-    private static final String ENV_TEMP = "AI_TEMPERATURE";
 
     private final String githubToken;
     private final String aiModel;
@@ -339,15 +322,19 @@ public class AIFailureAnalyzer {
     private static AIFailureAnalyzer instance;
 
     private AIFailureAnalyzer() {
-        Properties props = loadConfig(); // may be empty if config.properties doesn't exist
+        Properties props = loadConfig();
+        this.enabled = Boolean.parseBoolean(props.getProperty("ai.failure.analysis", "false"));
+        String tokenFromFile = props.getProperty("github.token", "").trim();
+        if (tokenFromFile.isEmpty()) {
+            tokenFromFile = System.getenv("GITHUB_TOKEN");  // Jenkins secret injected as env var
+            if (tokenFromFile != null) tokenFromFile = tokenFromFile.trim();
+        }
+        this.githubToken = tokenFromFile == null ? "" : tokenFromFile;
+        this.aiModel = props.getProperty("ai.model", "gpt-4o");
+        this.temperature = Double.parseDouble(props.getProperty("ai.temperature", "0.2"));
 
-        this.enabled = Boolean.parseBoolean(getConfig(props, KEY_ENABLED, ENV_ENABLED, "false"));
-        this.githubToken = getConfig(props, KEY_TOKEN, ENV_TOKEN, "");
-        this.aiModel = getConfig(props, KEY_MODEL, ENV_MODEL, "gpt-4o");
-        this.temperature = parseDoubleSafe(getConfig(props, KEY_TEMP, ENV_TEMP, "0.2"), 0.2);
-
-        if (enabled && (githubToken == null || githubToken.isBlank())) {
-            log.warn("AI Failure Analysis is enabled but GitHub token is not configured (config.properties / env / -D)");
+        if (enabled && (githubToken == null || githubToken.isEmpty())) {
+            log.warn("AI Failure Analysis is enabled but GitHub token is not configured");
         }
     }
 
@@ -358,59 +345,25 @@ public class AIFailureAnalyzer {
         return instance;
     }
 
-    /**
-     * Loads config.properties if present. If not present, returns empty props.
-     */
     private Properties loadConfig() {
         Properties props = new Properties();
         try (InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties")) {
             if (input != null) {
                 props.load(input);
-                log.info("Loaded AI Failure Analyzer config from config.properties");
-            } else {
-                log.info("config.properties not found. Will use -D system properties or environment variables (Jenkins).");
             }
         } catch (Exception e) {
-            log.error("Failed to load config for AI Failure Analyzer: " + e.getMessage(), e);
+            log.error("Failed to load config for AI Failure Analyzer: " + e.getMessage());
         }
         return props;
     }
 
     /**
-     * Reads config in this order:
-     * 1) System property (-Dkey=value)
-     * 2) Environment variable (envKey)
-     * 3) config.properties (props)
-     * 4) defaultValue
-     */
-    private String getConfig(Properties props, String key, String envKey, String defaultValue) {
-        try {
-            String sys = System.getProperty(key);
-            if (sys != null && !sys.isBlank()) return sys.trim();
-
-            String env = System.getenv(envKey);
-            if (env != null && !env.isBlank()) return env.trim();
-
-            String file = props.getProperty(key);
-            if (file != null && !file.isBlank()) return file.trim();
-
-        } catch (Exception e) {
-            log.warn("Config read failed for key=" + key + " envKey=" + envKey + ": " + e.getMessage());
-        }
-        return defaultValue;
-    }
-
-    private double parseDoubleSafe(String value, double fallback) {
-        try {
-            return Double.parseDouble(value);
-        } catch (Exception e) {
-            log.warn("Invalid temperature value '" + value + "'. Using fallback " + fallback);
-            return fallback;
-        }
-    }
-
-    /**
      * Analyzes a test failure and returns AI-generated suggestions.
+     *
+     * @param testName     The name of the failed test
+     * @param errorMessage The error message from the failure
+     * @param stackTrace   The full stack trace
+     * @return AI analysis and suggestions, or null if analysis is disabled/failed
      */
     public String analyzeFailure(String testName, String errorMessage, String stackTrace) {
         return analyzeFailure(testName, errorMessage, stackTrace, null);
@@ -418,6 +371,12 @@ public class AIFailureAnalyzer {
 
     /**
      * Analyzes a test failure with test parameters and returns AI-generated suggestions.
+     *
+     * @param testName       The name of the failed test
+     * @param errorMessage   The error message from the failure
+     * @param stackTrace     The full stack trace
+     * @param testParameters The test method parameters/arguments (can be null)
+     * @return AI analysis and suggestions, or null if analysis is disabled/failed
      */
     public String analyzeFailure(String testName, String errorMessage, String stackTrace, Object[] testParameters) {
         if (!enabled) {
@@ -425,7 +384,7 @@ public class AIFailureAnalyzer {
             return null;
         }
 
-        if (githubToken == null || githubToken.isBlank()) {
+        if (githubToken == null || githubToken.isEmpty()) {
             log.warn("Cannot perform AI analysis: GitHub token not configured");
             return null;
         }
@@ -444,6 +403,7 @@ public class AIFailureAnalyzer {
         promptBuilder.append("You are a test automation expert. Analyze this failed Selenium/TestNG test.\n\n");
         promptBuilder.append("**Test Name:** ").append(testName).append("\n\n");
 
+        // Add test parameters if present
         if (testParameters != null && testParameters.length > 0) {
             promptBuilder.append("**Test Parameters/Arguments:**\n");
             for (int i = 0; i < testParameters.length; i++) {
@@ -459,13 +419,13 @@ public class AIFailureAnalyzer {
         promptBuilder.append("**Stack Trace:**\n").append(truncateStackTrace(stackTrace, 1500)).append("\n\n");
 
         promptBuilder.append("""
-            Provide a CONCISE analysis in exactly 10-12 lines covering:
-            1. ROOT CAUSE: What caused this failure (2-3 lines)
-            2. SOLUTION: How to fix it (3-4 lines)
-            3. PREVENTION: How to avoid this in future (2-3 lines)
-            
-            If test parameters are provided, analyze if the input data might be causing the issue.
-            Be specific and actionable. No lengthy explanations.""");
+                Provide a CONCISE analysis in exactly 10-12 lines covering:
+                1. ROOT CAUSE: What caused this failure (2-3 lines)
+                2. SOLUTION: How to fix it (3-4 lines)
+                3. PREVENTION: How to avoid this in future (2-3 lines)
+                
+                If test parameters are provided, analyze if the input data might be causing the issue.
+                Be specific and actionable. No lengthy explanations.""");
 
         return promptBuilder.toString();
     }
@@ -488,6 +448,7 @@ public class AIFailureAnalyzer {
             conn.setConnectTimeout(30000);
             conn.setReadTimeout(60000);
 
+            // Build JSON request body
             String requestBody = buildRequestBody(prompt);
 
             try (OutputStream os = conn.getOutputStream()) {
@@ -513,6 +474,7 @@ public class AIFailureAnalyzer {
     }
 
     private String buildRequestBody(String prompt) {
+        // Escape special characters for JSON
         String escapedPrompt = prompt
                 .replace("\\", "\\\\")
                 .replace("\"", "\\\"")
@@ -521,40 +483,45 @@ public class AIFailureAnalyzer {
                 .replace("\t", "\\t");
 
         return String.format("""
-            {
-                "model": "%s",
-                "messages": [
-                    {
-                        "role": "system",
-                        "content": "You are a helpful test automation expert who analyzes test failures and provides clear, actionable insights."
-                    },
-                    {
-                        "role": "user",
-                        "content": "%s"
-                    }
-                ],
-                "temperature": %s,
-                "max_tokens": 1000
-            }
-            """, aiModel, escapedPrompt, temperature);
+                {
+                    "model": "%s",
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": "You are a helpful test automation expert who analyzes test failures and provides clear, actionable insights."
+                        },
+                        {
+                            "role": "user",
+                            "content": "%s"
+                        }
+                    ],
+                    "temperature": %s,
+                    "max_tokens": 1000
+                }
+                """, aiModel, escapedPrompt, temperature);
     }
 
     private String parseAIResponse(String jsonResponse) {
         try {
+            // Simple JSON parsing without external library
+            // Look for "content" field in the response
             int contentStart = jsonResponse.indexOf("\"content\":");
             if (contentStart == -1) {
                 log.warn("Could not find content in AI response");
                 return null;
             }
 
+            // Find the start of the content value
             int valueStart = jsonResponse.indexOf("\"", contentStart + 10) + 1;
             if (valueStart == 0) return null;
 
+            // Find the end of the content value (look for unescaped quote)
             int valueEnd = valueStart;
             while (valueEnd < jsonResponse.length()) {
                 int nextQuote = jsonResponse.indexOf("\"", valueEnd);
                 if (nextQuote == -1) break;
 
+                // Check if this quote is escaped
                 int backslashCount = 0;
                 int checkPos = nextQuote - 1;
                 while (checkPos >= valueStart && jsonResponse.charAt(checkPos) == '\\') {
@@ -563,6 +530,7 @@ public class AIFailureAnalyzer {
                 }
 
                 if (backslashCount % 2 == 0) {
+                    // Quote is not escaped
                     valueEnd = nextQuote;
                     break;
                 }
@@ -571,6 +539,7 @@ public class AIFailureAnalyzer {
 
             String content = jsonResponse.substring(valueStart, valueEnd);
 
+            // Unescape JSON string
             return content
                     .replace("\\n", "\n")
                     .replace("\\r", "\r")
@@ -579,7 +548,7 @@ public class AIFailureAnalyzer {
                     .replace("\\\\", "\\");
 
         } catch (Exception e) {
-            log.error("Failed to parse AI response: " + e.getMessage(), e);
+            log.error("Failed to parse AI response: " + e.getMessage());
             return null;
         }
     }
@@ -592,9 +561,9 @@ public class AIFailureAnalyzer {
             return null;
         }
 
-        // Proper bold conversion: **text** -> <b>text</b>
+        // Convert markdown-style formatting to HTML
         String html = analysis
-                .replaceAll("\\*\\*(.+?)\\*\\*", "<b>$1</b>")
+                .replace("**", "<b>").replace("**", "</b>")
                 .replace("\n", "<br/>")
                 .replace("1.", "<br/>1.")
                 .replace("2.", "<br/>2.")

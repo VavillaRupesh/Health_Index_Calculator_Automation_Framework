@@ -3,11 +3,11 @@ package tests;
 import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.DataProviderUtility;
+import utilities.DataProviderUtility_2;
 
 public class FormFieldValidationTest_2 extends BaseTest {
 
-    @Test( dataProvider = "validTestData", dataProviderClass = DataProviderUtility.class, priority = 1,groups = {"functional","smoke","sanity","regression"})
+    @Test( dataProvider = "validTestData", dataProviderClass = DataProviderUtility_2.class, priority = 1,groups = {"functional","smoke","sanity","regression"})
     public void testInputFieldsWithValidData(String field, String name, String age, String pulse, String sysBP, String diaBP) throws Exception {
         resultPage = indexPage.submitHealthIndexForm(name, age, pulse, sysBP, diaBP);
         reporter.info("Input Form Submitted with valid data");
@@ -17,7 +17,7 @@ public class FormFieldValidationTest_2 extends BaseTest {
 
     }
 
-    @Test( dataProvider = "invalidTestData", dataProviderClass = DataProviderUtility.class, priority = 2,groups = {"functional","regression"} )
+    @Test( dataProvider = "invalidTestData", dataProviderClass = DataProviderUtility_2.class, priority = 2,groups = {"functional","regression"} )
     public void testInputFieldsWithInvalidData(String field, String name, String age, String pulse, String sysBP, String diaBP, String expectedResult) throws Exception {;
         resultPage=indexPage.submitHealthIndexForm(name, age, pulse, sysBP, diaBP);
         reporter.info("Input Form submitted with invalid data");

@@ -6,13 +6,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.DataProviderUtility;
+import utilities.DataProviderUtility_2;
 
 import java.time.Duration;
 
 public class ScoreValidationTest_2 extends BaseTest {
 
-    @Test(dataProvider = "ScoreData", dataProviderClass = DataProviderUtility.class, priority = 1,groups = {"functional","smoke","regression"})
+    @Test(dataProvider = "ScoreData", dataProviderClass = DataProviderUtility_2.class, priority = 1,groups = {"functional","smoke","regression"})
     public void ScoreValidation(String testcase, String name, String age, String pulse, String sysBP, String diaBP, String score) throws Exception {
         SoftAssert softAssert = new SoftAssert();
         resultPage = indexPage.submitHealthIndexForm(name, age, pulse, sysBP, diaBP);
@@ -49,7 +49,7 @@ public class ScoreValidationTest_2 extends BaseTest {
     }
 
 
-    @Test(dataProvider = "OverallScoreData", dataProviderClass = DataProviderUtility.class, priority = 2, groups = {"functional","smoke","regression"})
+    @Test(dataProvider = "OverallScoreData", dataProviderClass = DataProviderUtility_2.class, priority = 2, groups = {"functional","smoke","regression"})
     public void OverallHealthScoreValidation(String testCase, String name, String age, String pulse, String sysBP, String diasBP, String expScore, String expRemark, String expColor) throws Exception {
         SoftAssert softAssert = new SoftAssert();
 
