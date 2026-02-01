@@ -1,6 +1,6 @@
-package tests;
+package tests.testcases;
 
-import base.BaseTest;
+import tests.base.BaseTest;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -10,7 +10,7 @@ import utilities.DataProviderUtility;
 
 import java.time.Duration;
 
-public class ScoreValidationTest_2 extends BaseTest {
+public class ScoreValidationTest extends BaseTest {
 
     @Test(dataProvider = "ScoreData", dataProviderClass = DataProviderUtility.class, priority = 1,groups = {"functional","smoke","regression"})
     public void ScoreValidation(String testcase, String name, String age, String pulse, String sysBP, String diaBP, String score) throws Exception {
@@ -40,7 +40,9 @@ public class ScoreValidationTest_2 extends BaseTest {
             }
 
             softAssert.assertAll();
+            new DataProviderUtility().writeScoreData("Pass");
         } catch(AssertionError e) {
+            new DataProviderUtility().writeScoreData("Fail");
             throw e;
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -75,7 +77,9 @@ public class ScoreValidationTest_2 extends BaseTest {
             }
 
             softAssert.assertAll();
+            new DataProviderUtility().writeOverallScoreData("Pass");
         } catch (AssertionError | Exception e) {
+            new DataProviderUtility().writeOverallScoreData("Fail");
             throw e;
         }
     }

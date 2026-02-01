@@ -1,13 +1,12 @@
-package tests;
+package tests.testcases;
 
-import base.BaseTest;
+import tests.base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.pageobjects.ResultPage;
-import utilities.DataProviderUtility;
 
 import java.util.List;
 

@@ -1,10 +1,8 @@
-package tests;
+package tests.testcases;
 
-import base.BaseTest;
-import org.testng.Assert;
+import tests.base.BaseTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.DataProviderUtility;
 
 public class ResultUIValidationTest extends BaseTest {
 

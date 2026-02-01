@@ -7,10 +7,10 @@
     <test name="Execution in Chrome">
         <parameter name="browser" value="edge"/>
         <classes>
-            <class name="tests.FormUIValidationTest"/>
-            <class name="tests.FormFieldValidationTest"/>
-            <class name="tests.ResultUIValidationTest"/>
-            <class name="tests.ScoreValidationTest"/>
+            <class name="tests.testcases.FormUIValidationTest"/>
+            <class name="tests.testcases.FormFieldValidationTest"/>
+            <class name="tests.testcases.ResultUIValidationTest"/>
+            <class name="tests.testcases.ScoreValidationTest"/>
         </classes>
     </test>
    </suite>

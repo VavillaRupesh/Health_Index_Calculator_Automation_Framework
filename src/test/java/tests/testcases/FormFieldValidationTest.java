@@ -1,16 +1,17 @@
-package tests;
+package tests.testcases;
 
-import base.BaseTest;
+import tests.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.DataProviderUtility;
 
-public class FormFieldValidationTest_2 extends BaseTest {
+public class FormFieldValidationTest extends BaseTest {
 
     @Test( dataProvider = "validTestData", dataProviderClass = DataProviderUtility.class, priority = 1,groups = {"functional","smoke","sanity","regression"})
     public void testInputFieldsWithValidData(String field, String name, String age, String pulse, String sysBP, String diaBP) throws Exception {
         resultPage = indexPage.submitHealthIndexForm(name, age, pulse, sysBP, diaBP);
         reporter.info("Input Form Submitted with valid data");
+        new DataProviderUtility().writeValidTestData(resultPage.isResultCardDisplayed()?"Pass":"Fail");
         Assert.assertTrue(resultPage.isResultCardDisplayed());
         resultPage.clickResetBtn();
         reporter.info("Reset Button Clicked");
@@ -68,14 +69,17 @@ public class FormFieldValidationTest_2 extends BaseTest {
     private void failAndReset(String fieldName) throws Exception {
         resultPage.clickResetBtn();
         reporter.info("Reset Button Clicked");
+        new DataProviderUtility().writeInvalidTestData("Fail");
         Assert.fail("Unexpected result card displayed for Invalid" + fieldName);
     }
 
     private void validateError(String actualResult, String expectedResult, String fieldName) throws Exception {
         try {
             Assert.assertEquals(actualResult, expectedResult, "Validation failed for " + fieldName);
+            new DataProviderUtility().writeInvalidTestData("Pass");
             reporter.info(fieldName + " validation passed.");
         } catch (AssertionError | Exception e) {
+            new DataProviderUtility().writeInvalidTestData("Fail");
             reporter.fail(fieldName + " validation failed. " + "Expected: [" + expectedResult + "] | Actual: [" + actualResult + "]");
             throw e;
         }

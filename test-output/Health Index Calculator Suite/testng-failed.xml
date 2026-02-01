@@ -7,22 +7,22 @@
   <test thread-count="5" name="Execution in Chrome(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="tests.ScoreValidationTest">
+      <class name="tests.testcases.ScoreValidationTest">
         <methods>
           <include name="setUp"/>
           <include name="OverallHealthScoreValidation" invocation-numbers="1"/>
           <include name="beforeSuite"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.ScoreValidationTest -->
-      <class name="tests.FormFieldValidationTest">
+      </class> <!-- tests.testcases.ScoreValidationTest -->
+      <class name="tests.testcases.FormFieldValidationTest">
         <methods>
           <include name="setUp"/>
           <include name="testInputFieldsWithInvalidData" invocation-numbers="3 20 26 11 12"/>
           <include name="beforeSuite"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- tests.FormFieldValidationTest -->
+      </class> <!-- tests.testcases.FormFieldValidationTest -->
     </classes>
   </test> <!-- Execution in Chrome(failed) -->
 </suite> <!-- Failed suite [Health Index Calculator Suite] -->

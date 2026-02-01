@@ -1,4 +1,4 @@
-package base;
+package tests.base;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,7 +18,6 @@ import utilities.ExtentReportUtility;
 import utilities.Reporter;
 
 import java.io.FileInputStream;
-import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
